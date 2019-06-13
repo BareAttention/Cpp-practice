@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, m, a, b, count {0};
+    cin >> n >> m;
+    for (a = 0; a < 32; a++) {
+        for (b = 0; b < 32; b++) {
+            if (b == n - a*a)
+                if (a == m - b*b)
+                    ++count;
+        }
+    }
+    cout << count;
+    return 0;
+}
