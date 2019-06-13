@@ -1,4 +1,4 @@
-# Cpp-practice
+# Competitive Coding
 #include <iostream>
 using namespace std;
 #include <vector>
